@@ -37,7 +37,7 @@ if page_selected == "Home":
     - **Fast and Efficient:** Receive results in seconds, allowing for quick decision-making.
     
     ### About Us
-    Learn more about the project, our team, and our goals on the **About** page.
+    Learn more about the project on the **About** page.
     
     
     """)
@@ -45,7 +45,7 @@ elif page_selected == "About us":
     st.header("About Us")
     st.markdown("""
             #### About Dataset
-            This dataset is recreated using offline augmentation from the original dataset.The original dataset can be found on the kaggle.
+            The dataset can be found on the kaggle.
             This dataset consists of about 87K rgb images of healthy and diseased crop leaves which is categorized into 38 different classes.The total dataset is divided into 80/20 ratio of training and validation set preserving the directory structure.
             A new directory containing 33 test images is created later for prediction purpose.
             #### Content
